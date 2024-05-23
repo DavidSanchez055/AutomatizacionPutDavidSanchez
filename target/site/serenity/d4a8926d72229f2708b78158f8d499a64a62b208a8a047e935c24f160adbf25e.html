@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>consultar un usuario con metodo get</title>
+    <title>reemplazar informaxion de un usuario con metodo put</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -126,7 +126,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > consultar un usuario con metodo get
+        > reemplazar informaxion de un usuario con metodo put
         </span>
         </div>
         <div class="rightbg"></div>
@@ -144,7 +144,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-05-2024 01:28</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-05-2024 01:40</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -173,10 +173,10 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">
-                                    consultar un usuario con metodo get
+                                <span class="success-color">
+                                    reemplazar informaxion de un usuario con metodo put
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -234,7 +234,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.07s</span></td>
+                        <td width="100"><span class="top-level-step">0.03s</span></td>
                     </tr>
                     <tr class="test-SUCCESS">
 
@@ -261,7 +261,7 @@
                         </td>
 
                         <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">5s</span></td>
+                        <td width="100"><span class="top-level-step">46.55s</span></td>
                     </tr>
                         <tr>
                             <td colspan="5">
@@ -279,7 +279,7 @@
                         <td class="step-description-column">
                             <div class="step-description">
                                     <span class="nested-group-step">
-                                                GET https://gorest.co.in/public/v2/users/6920247
+                                                PUT https://gorest.co.in/public/v2/users/6920247
                                         </span>
                                 <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -295,24 +295,19 @@
                             <div class="card">
                                 <div class="card-body">
                                     <h4>Response</h4>
-                                        <p>URL: https://gorest.co.in/public/v2/users/6920247
-</p>
+                                        <p>URL: https://gorest.co.in/public/v2/users/6920247</p>
                                         <p>Status code: 200</p>
                                         <p>Content Type: application/json</p>
                                         <h4>Request Headers</h4>
-                                        <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8
-</pre>
+                                        <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
                                         <h4>Content Body</h4>
-                                        <pre>
-</pre>
+                                        <pre>{<br>    &quot;name&quot;: &quot;David San&quot;,<br>    &quot;email&quot;: &quot;DavidS55@gmail.com&quot;<br>}</pre>
                                         <h4>Request Cookies</h4>
-                                        <pre>
-</pre>
+                                        <pre></pre>
                                         <h4>Response Headers</h4>
-                                        <pre>Date: Thu, 23 May 2024 06:28:51 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;57de21b6cd92e9d6d31f77cdc0ac18bd&quot;<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 89<br>x-ratelimit-reset: 1<br>x-request-id: b4ab7b6b-70fd-4e08-a960-b40dd6499f48<br>x-runtime: 0.053964<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=qLOoHTDY2VnYTs%2FwXQFNxQ4mRBuR5QPZypFpF0s0dCLVkt8r4kwkS3DfTqbLUumlL6Gf3aVp0c5L4VN20Nnr9iemNKWP52q5XbBEDofh3diZGJgWoYn%2FeZV79RX7TYU%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 8882fcfa6e48336e-MIA<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400
-</pre>
+                                        <pre>Date: Thu, 23 May 2024 06:41:30 GMT<br>Content-Type: application/json; charset=utf-8<br>Transfer-Encoding: chunked<br>Connection: keep-alive<br>Cache-Control: max-age=0, private, must-revalidate<br>etag: W/&quot;3a07a101f63f3d6866e582160926d76e&quot;<br>referrer-policy: strict-origin-when-cross-origin<br>vary: Origin<br>x-content-type-options: nosniff<br>x-download-options: noopen<br>x-frame-options: SAMEORIGIN<br>x-permitted-cross-domain-policies: none<br>x-ratelimit-limit: 90<br>x-ratelimit-remaining: 89<br>x-ratelimit-reset: 1<br>x-request-id: ac5739b0-4e5d-4c68-80a7-2569d8f8f0c2<br>x-runtime: 0.074149<br>x-xss-protection: 0<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v4?s=fKr5imCnwHhArUwoRT2VdIFbSEGq81BE1It70z2GF%2FsrCuGEQsDMpAJnAG7ru1%2F3E0IR3kE%2B%2Fz0Xdco48asrg55xZgg7gANDxdRr3Uf29V0VU7snKdVzcugFtcIyLjAcuhzcWGu0fEazrCY%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 88830f824fbd09c6-MIA<br>Content-Encoding: gzip<br>alt-svc: h3=&quot;:443&quot;; ma=86400</pre>
                                     <h4>Response Body</h4>
-                                        <pre>{<br>    &quot;id&quot;: 6920247,<br>    &quot;name&quot;: &quot;Tanirika Kaul&quot;,<br>    &quot;email&quot;: &quot;tanirika_kaul@gleason.example&quot;,<br>    &quot;gender&quot;: &quot;male&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
+                                        <pre>{<br>    &quot;email&quot;: &quot;DavidS55@gmail.com&quot;,<br>    &quot;name&quot;: &quot;David San&quot;,<br>    &quot;id&quot;: 6920247,<br>    &quot;gender&quot;: &quot;male&quot;,<br>    &quot;status&quot;: &quot;active&quot;<br>}</pre>
                                 </div>
                             </div>
                         </div>
@@ -329,12 +324,12 @@
                                 </table>
                             </td>
                         </tr>
-                    <tr class="test-FAILURE">
+                    <tr class="test-SUCCESS">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
                                 </span>
                         </td>
 
@@ -348,51 +343,13 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">FAILURE</span></td>
-                        <td width="100"><span class="top-level-step">0.77s</span></td>
+                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
+                        <td width="100"><span class="top-level-step">0.85s</span></td>
                     </tr>
-                        <tr class="test-FAILURE">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.AssertionError: expected:&lt;[Tanirika Kaul]&gt; but was:&lt;[David San]&gt;</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-4""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-4">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.AssertionError </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>com.unac.restinteractions.RestInteractions.validateDataResponse(RestInteractions.java:22)<br />com.unac.apis.GoRestApi.validateResponse(GoRestApi.java:21)<br />com.unac.stepsdefinitions.PutGoRestStepsdefinitions.seValidaQueElStatusCodeSeaYQueContengaElNombreYEmail(GetGoRestStepsdefinitions.java:21)<br />✽.se valida que el status code sea 200 y que contenga el nombre "David San" y email "DavidS55@gmail.com"(file:///C:/Calidad/AutomatizacionApiRest/src/test/resources/com/unac/features/get_go_rest.feature:9)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                <tr class="test-FAILURE">
+                <tr class="test-SUCCESS">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>6.01s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>47.52s</em></span></td>
                 </tr>
 
             </table>
